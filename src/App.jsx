@@ -26,7 +26,7 @@ export default function App(){
                 <Routes>
                     <Route path="/" element={<Login />} />
                     <Route path="/menu" element={<Menu menu={menu} />} />
-                    <Route path="/item/:id" element={<ItemDetails menu={menu} />} />
+                    <Route path="/menu/:id" element={<ItemDetails menu={menu} />} />
                     <Route path="/cart" element={<CartPayment />} />
                     <Route path="/track/:orderId" element={<OrderTracking />} />
                 </Routes>
